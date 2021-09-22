@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
+    <link href="../css/login.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+
+    <script type="text/JavaScript">
+        function cadastro() {
+            document.getElementById("cadastreSe").innerHTML;
+            window.open("Formulario.html")
+        }
+    </script>
+    <br>
+    <div class="container">
+        <p>Login</p>
+        <div class="email">
+            <label for="email">Email</label>
+            <input type="email" class="form-control" name="email" placeholder="Digite seu email" id="email" required>
+        </div>
+        <br>
+        <div class="senha">
+            <label for="senha">Senha</label>
+            <input type="password" class="form-control" name="senha" placeholder="Digite sua senha" id="senha" required>
+        </div>
+        <br>
+        <div class="col-12">
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="invalidCheck2">
+                <label class="form-check-label" for="invalidCheck2">
+                    Lembrar de mim
+                </label>
+            </div>
+        </div>
+        <br>
+        <div class="d-grid gap-2">
+            <button style="border-radius: 30px;" class="btn btn-primary" type="submit">Entrar</button>
+            <button type="button" id="cadastreSe" onclick="cadastro()" class="btn btn-link">Não tem cadastro? Cadastre-se</button>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

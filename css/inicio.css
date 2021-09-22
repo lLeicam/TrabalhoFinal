@@ -1,0 +1,57 @@
+.container{
+    margin-left: 100px;
+    padding-right: 0px;
+    margin-top: 50px;
+}
+
+
+p {
+    text-indent: 3ch;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    font-size: 30px;
+}
+
+header{
+    background-color: #6fb3e0;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.logo{
+    width: 140px;
+}
+
+.links{
+    display: flex;
+    list-style: none;
+    gap: 250px;
+    margin-right: 100px;
+    margin-top: 10px;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#edgb{
+    margin-left: 20px;
+    margin-right: 40px;
+}
+
+#ekgl{
+    margin-left: 20px;
+    margin-right: 40px;
+}
+
+#iza{
+    margin-left: 40px;
+    margin-right: 20px;
+}

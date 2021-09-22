@@ -1,0 +1,29 @@
+body{
+    background-image: url("../img/img1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 50px;
+}
+
+.logo{
+    width: 140px;
+}
+
+p{
+    margin-top: 10px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.container{
+    background-color: #fff;
+    border-radius: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
